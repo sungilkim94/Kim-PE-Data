@@ -64,12 +64,11 @@ gen peid       = company_id
 gen pename_trim  = trim(lower(pename))     // lowercase + trim
 duplicates drop pename_trim peid , force
 
-*--- state ----------------------------------------------------
+*--- location ----------------------------------------------------
 gen pestate = trim(lower(company_state))
-
 gen pecity  = trim(lower(company_city))
-
 gen pezip = company_zip
+gen peaddress = company_addresss
 
 gen id = peid
 
@@ -80,10 +79,11 @@ gen name_trim = pename_trim
 gen state = pestate
 gen city = pecity
 gen zip = pezip
+gen address = peaddress
 
 duplicates drop id name_trim, force
 
-keep pename peid pename_trim pestate pecity pezip name_raw name_trim id state city zip extracted_target_name_source company_name deal_description firm_about city
+keep pename peid pename_trim pestate pecity pezip peaddress name_raw name_trim id state city zip address extracted_target_name_source company_name deal_description firm_about
 
 cd "***"
 
