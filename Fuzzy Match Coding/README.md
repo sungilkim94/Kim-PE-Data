@@ -55,3 +55,46 @@ Input: Manually-reviewed individual workbooks
 Output: Final verified matches between Deal and AHA  
 
 Goal: This file finalizes our manual verification of the unified fuzzy match to create a final dataset of confirmed matches between AHA and deal data.
+
+
+## Notes for Practitioners
+
+**Note 1: Dataset-specific quirks**  
+Each deal database has unique characteristics that require tailored preprocessing
+before fuzzy matching. The generic workflow provided here may need to be adapted
+accordingly. For example:
+
+- **Levin**: Many deal records describe multi-hospital acquisitions using aggregated
+  language (e.g., "5 HCA Hospitals", "3 Chicago Hospitals") rather than individual
+  hospital names. Additionally, Levin does not include a direct PE-deal indicator,
+  requiring extra steps for PE-deal identification and individual hospital name
+  extraction prior to matching.
+- **PitchBook**: The "Clinical/Outpatient" industry classification in PitchBook
+  captures many non-hospital entities (e.g., imaging centers, outpatient clinics).
+  Additional keyword filtering is needed to restrict the match feed to hospitals
+  and health systems.
+
+Researchers applying this workflow to other deal databases should expect similar
+dataset-specific adjustments.
+
+**Note 2: Manual search for unmatched and rejected cases**  
+Our manual verification goes beyond reviewing fuzzy match candidates. For any deal
+entity that either (a) received no candidate match from the algorithm, or (b) received
+a candidate match that was subsequently rejected during manual review, we conducted
+an additional manual search to attempt to identify the correct AHA hospital link —
+provided we were sufficiently confident the entity was a hospital. This second-pass
+manual effort is an important part of achieving high match rates and should be
+factored into the workflow when applying it to new data.
+
+**Note 3: Match key standardization**  
+Standardizing name strings before fuzzy matching can meaningfully improve algorithm
+performance. Useful transformations include expanding common abbreviations to their
+full form (e.g., "St." → "Saint", "Hosp" → "Hospital") and removing common suffixes
+and legal entity descriptors (e.g., "LLC", "Corp", "Inc"). For example, "St. Vincent
+Hosp" and "St. Vincent Hospital" will match poorly without normalization, and "HCA,
+LLC" and "HCA" may fail to link without suffix removal.
+
+However, removing too many general words can hurt performance by stripping meaningful
+distinguishing information from names. Researchers should experiment with different
+standardization rules on their own data to find the approach that works best for
+their specific matching context.
