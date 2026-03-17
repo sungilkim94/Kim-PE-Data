@@ -38,9 +38,20 @@ Ouput: Unified Fuzzy Match between Deal and AHA
 
 Goal: This file combines fuzzy match results from python and Stata to create a single dataset of candiate matches.
 
-## 6. Finalize.do
-Input: Unified Fuzzy Match between Deal and AHA
+## 6. Deal-AHA-Manualwork-WorkedOn(Example).xlsx
 
-Output: Manually Verified Fuzzy Match between Deal and AHA
+Input: Unified Fuzzy Match between Deal and AHA 
+
+Output: Manually-reviewed individual workbooks 
+
+Goal: Template illustrating the structure of the manual review workbook used to resolve
+unmatched or ambiguous cases. Multiple RAs work on this independently as a cross-check
+to improve accuracy. Deal Data and AHA IDs are anonymized in this example file.
+
+
+## 7. Finalize.do
+Input: Manually-reviewed individual workbooks  
+
+Output: Final verified matches between Deal and AHA  
 
 Goal: This file finalizes our manual verification of the unified fuzzy match to create a final dataset of confirmed matches between AHA and deal data.
