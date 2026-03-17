@@ -45,7 +45,7 @@ Input: Unified Fuzzy Match between Deal and AHA
 Output: Manually-reviewed individual workbooks 
 
 Goal: Template illustrating the structure of the manual review workbook used to resolve
-unmatched or ambiguous cases. Multiple RAs work on this independently as a cross-check
+unmatched or ambiguous cases. Multiple indviudals work on this independently as a cross-check
 to improve accuracy. Deal Data and AHA IDs are anonymized in this example file.
 
 
