@@ -76,7 +76,9 @@ accordingly. For example:
   verification step.
 
 Researchers applying this workflow to other deal databases should expect similar
-dataset-specific adjustments.
+dataset-specific adjustments. Our keywording approach has been fine tuned for the
+deal databases we consider and may need adjustment for optimal processing of other
+deal databases.
 
 **Note 2: Manual search for unmatched and rejected cases**  
 Our manual verification goes beyond reviewing fuzzy match candidates. For any deal
