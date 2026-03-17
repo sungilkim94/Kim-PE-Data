@@ -55,6 +55,24 @@ replace extracted_target_name_source = 1
 *Expand multi-facility but partial system acqusitions using deal descriptions and external sources. 
 *The goal of this step is to create consistent company name strings at the hospital level for these acutisions.
 
+* ---------- Multi-hospital deal expansion ----------
+* Some deals cover multiple hospitals under a single deal record.
+* These are expanded into individual hospital-level rows using the pattern below.
+* For each such deal, we duplicate the row, assign individual hospital names,
+* cities, and states to each expanded row, and update the source indicator.
+
+* Example pattern:
+* For example, "2 HCA hospitals sold"
+* expand [N=2] if id == [DEAL_ID]
+* gen row_index = _n if id == [DEAL_ID]
+* bysort id (row_index): replace extracted_target_name = "[Hospital A]" if _n == 1 & id == [DEAL_ID]
+* bysort id (row_index): replace extracted_target_name = "[Hospital B]" if _n == 2 & id == [DEAL_ID]
+* replace target_city  = "[City A]"  if extracted_target_name == "[Hospital A]"
+* replace target_city  = "[City B]"  if extracted_target_name == "[Hospital B]"
+* replace target_state = "[State]"   if id == [DEAL_ID]
+* drop row_index
+* replace extracted_target_name_source = 2 if id == [DEAL_ID]
+
 * ------------------------------------------------------------
 * Match Key Creation
 * ------------------------------------------------------------
