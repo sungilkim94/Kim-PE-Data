@@ -71,8 +71,9 @@ accordingly. For example:
   extraction prior to matching.
 - **PitchBook**: The "Clinical/Outpatient" industry classification in PitchBook
   captures many non-hospital entities (e.g., imaging centers, outpatient clinics).
-  Additional keyword filtering is needed to restrict the match feed to hospitals
-  and health systems.
+  Even with our extensive keyword filtering, some non-hospital entities persists
+  through the matching process and must be filitered out manually during the final
+  verification step.
 
 Researchers applying this workflow to other deal databases should expect similar
 dataset-specific adjustments.
