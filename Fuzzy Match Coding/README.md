@@ -89,13 +89,18 @@ provided we were sufficiently confident the entity was a hospital. This second-p
 manual effort is an important part of achieving high match rates and should be
 factored into the workflow when applying it to new data.
 
+We manually verify all matches, both candiate matches and matches found manually, using
+external sources (press releases, local news, SEC fillings, etc.). We view our fuzzy match
+workflow as a way to expedite matching between AHA and deal databases, not as a subsititue
+for careful manual verification.
+
 **Note 3: Match key standardization**  
-Standardizing name strings before fuzzy matching can meaningfully improve algorithm
-performance. Useful transformations include expanding common abbreviations to their
-full form (e.g., "St." → "Saint", "Hosp" → "Hospital") and removing common suffixes
-and legal entity descriptors (e.g., "LLC", "Corp", "Inc"). For example, "St. Vincent
-Hosp" and "St. Vincent Hospital" will match poorly without normalization, and "HCA,
-LLC" and "HCA" may fail to link without suffix removal.
+We implement name standarization prior to matching. Standardizing name strings before fuzzy 
+matching can meaningfully improve algorithm performance. Useful transformations include 
+expanding common abbreviations to their full form (e.g., "St." → "Saint", "Hosp" → "Hospital") 
+and removing common suffixes and legal entity descriptors (e.g., "LLC", "Corp", "Inc"). For 
+example, "St. Vincent Hosp" and "St. Vincent Hospital" will match poorly without normalization,
+and "HCA, LLC" and "HCA" may fail to link without suffix removal.
 
 However, removing too many general words can hurt performance by stripping meaningful
 distinguishing information from names. Researchers should experiment with different
