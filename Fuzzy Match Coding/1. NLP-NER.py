@@ -35,7 +35,7 @@ df = pd.read_stata(Deal_file)
 # Keyword list for inclusive filtering of entities
 hospital_keywords = ["hospital", "health system", "medical center", "health group", "hospitals", "facilities", " health centers", "long-term acute care", "acute care", "surgery", " healthcare center", "center", "medicine centers", "centers", " medical facilities", " inpatient", "heathcare", "emergency room", "emergency", "ER", "surgical center", "health", "behavioral care"]
 
-# Define our NER function to check for hospital entities
+# Define our NER(Named Entity Recognition) function to check for hospital entities
 def contains_hospital_entity(text):
     if pd.isnull(text) or not isinstance(text, str):
         return False
