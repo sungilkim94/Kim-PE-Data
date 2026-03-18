@@ -44,3 +44,16 @@ deal_announcement_link - link, this is the link for the source of deal_announcem
 deal_closing_link - link, this is the link for the source of deal_closing_date for each deal
 
 deal_exit_date - date, this is the confirmed date of PE exit for each deal
+
+## Workflow
+
+Consistent with the paper, this repository documents the fuzzy match thresholds,
+rule-based checks, and manual decisions used in our matching process. Appendix A of
+the paper contains additional technical details of the workflow.
+
+This repository provides the code and documentation for our matching
+ workflow for transparency and reproducibility. Due to data use restrictions, raw
+data files from proprietary sources (e.g., Levin Associates, PitchBook, AHA Annual
+Survey) cannot be shared. Researchers wishing to replicate this workflow should
+obtain access to these sources independently. CMS-relevant data (etc., HCRIS, POS)
+are publicly available and can be downloaded directly from the CMS website or NBER.
