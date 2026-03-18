@@ -1,5 +1,5 @@
 # Kim-PE-Data
-This repository contains the PE deal dataset produced in "A Practitioner’s Guide to Using Data on Private Equity Hospital Acquisitions", Kim et al., 2026.
+This repository contains the PE deal dataset produced in **Kim, S., et al. (2026).** *A Practitioner’s Guide to Using Data on Private Equity Hospital Acquisitions*. Health Affairs Scholar. [Link forthcoming]
 
 We provide our deal list for download both in Stata .dta and Excel .xlsx form.
 
