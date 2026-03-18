@@ -70,4 +70,4 @@ drop year SYSNAME
 * ---- 5. Export per-deal expansion workbook ----
 * Output is one workbook per deal for manual review if needed
 cd "${out_root}"
-export excel using "ID [SYSID] Year [YEAR] Expansion.xlsx", replace firstrow(variables)
+export excel using "SYSTEM_ID [SYSID] YEAR [YEAR] Expansion.xlsx", replace firstrow(variables)
