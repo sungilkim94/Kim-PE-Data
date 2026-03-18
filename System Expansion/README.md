@@ -25,4 +25,4 @@ files, 10-K/8-K SEC filings, press releases, local news reports and any other re
 This step requires access to the AHA Annual Survey. The automatic expansion logic
 is documented in the accompanying code. Manual expansion decisions are recorded in
 the manual workbook template provided in this folder.
-the manual workbook template provided in this folder.
+
