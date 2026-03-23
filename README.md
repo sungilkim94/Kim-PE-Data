@@ -13,6 +13,8 @@ Link: https://docs.google.com/forms/d/e/1FAIpQLSfOj7X_2yxh5k2mOnYxdfvynAHG0QzSLk
 
 ## Variables
 
+We provide a detailed data description excel file and sumamrize the variables below:
+
 hospital_id - string, this is a consitent hospital identifer that survives CMS and AHA identifier changes, it can be used to track hospitals across acquisitions.
 
 hospital_cms_id - string, this is the CMS identifer for each hospital gained through use of our improved identifier crosswalks, entries with the identifier "M000000" represent hospitals that have been combined with other CMS identifiers for the purposes of reporting.
