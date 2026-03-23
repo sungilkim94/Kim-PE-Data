@@ -27,6 +27,8 @@ hospital_name - string, this is the name of each hospital
 
 hospital_city - string, this is the city of each hospital
 
+hospital_state - string, this is the state of each hospital
+
 hospital_address - string, this is the address of each hospital
 
 hospital_zip - numeric, this is the zip code of each hospital
