@@ -9,7 +9,7 @@ The data is presented in deal list form. Each row coresponds to a hospital-deal 
 
 Please utilize the reponse form if a potential error is identified. We are committed to transparaceny and would welcome any feedback you may have. We have provided this dataset as a public good; we hope this dataset empowers continued thoughtful scholarship on PE's exposure in the US acute care hospital market. 
 
-Link: https://docs.google.com/forms/d/e/1FAIpQLSfOj7X_2yxh5k2mOnYxdfvynAHG0QzSLk0sBD1mxzkrbvbzcA/viewform?usp=sharing&ouid=102986527072698648321
+[Response Form Link](https://docs.google.com/forms/d/e/1FAIpQLSfOj7X_2yxh5k2mOnYxdfvynAHG0QzSLk0sBD1mxzkrbvbzcA/viewform?usp=sharing&ouid=102986527072698648321)
 
 ## Variables
 
