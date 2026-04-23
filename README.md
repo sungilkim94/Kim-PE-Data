@@ -33,7 +33,7 @@ hospital_address - string, this is the address of each hospital
 
 hospital_zip - numeric, this is the zip code of each hospital
 
-deal_system_level - numeric, this is an indicator that = 1 whena  deal is at the system level and = 0 when a deal is at the hospital level
+deal_system_level - numeric, this is an indicator that = 1 when a deal is at the system level and = 0 when a deal is at the hospital level
 
 system_name - string, this is the name of the system involved in a system deal
 
@@ -48,6 +48,12 @@ deal_announcement_link - link, this is the link for the source of deal_announcem
 deal_closing_link - link, this is the link for the source of deal_closing_date for each deal
 
 deal_exit_date - date, this is the confirmed date of PE exit for each deal
+
+deal_exit_type - string, this is the exit type of PE exit for each deal
+
+deal_exit_link - link, this is the link for the source of deal_exit_type for each deal
+
+hca_flag - numeric, this is an indicator that = 1 when included in HCA PE deal, = 0 when not
 
 ## Workflow
 
