@@ -67,3 +67,11 @@ data files from proprietary sources (e.g., Levin Associates, PitchBook, AHA Annu
 Survey) cannot be shared. Researchers wishing to replicate this workflow should
 obtain access to these sources independently. CMS-relevant data (etc., HCRIS, POS)
 are publicly available and can be downloaded directly from the CMS website or NBER.
+
+## Deal List Changes and Update Log
+
+April 23, 2026 - Exit links and exit type classification were added 
+
+May 17, 2026 - Four hospitals were removed after being determined to be non-short-term 
+acute care hospitals. The hospital CMS IDs were:042000, 452049, 032007, and 032008.
+
