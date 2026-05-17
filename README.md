@@ -73,5 +73,5 @@ are publicly available and can be downloaded directly from the CMS website or NB
 April 23, 2026 - Exit links and exit type classification were added 
 
 May 17, 2026 - Four hospitals were removed after being determined to be non-short-term 
-acute care hospitals. The hospital CMS IDs were:042000, 452049, 032007, and 032008.
+acute care hospitals. The hospital CMS IDs were: 042000, 452049, 032007, and 032008.
 
