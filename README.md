@@ -76,20 +76,20 @@ May 17, 2026 - Four hospitals were removed after being determined to be non-shor
 acute care hospitals. The hospital CMS IDs were: 042000, 452049, 032007, and 032008.
 
 May 18, 2026 - Corrected CMS ID linkage for three hospitals, new hospital IDs generated:
- H-556 Lovelace Westside Hospital
- H-557 Hillcrest Hospital Henryetta
- H-558 Hillcrest Hospital Claremore
+ H-556 Lovelace Westside Hospital,
+ H-557 Hillcrest Hospital Henryetta,
+  and H-558 Hillcrest Hospital Claremore.
 
 May 18, 2026 - Removed two exact  duplicate rows: 
- hospital ID H-299  deal ID D-132 
- hospital ID H-370  deal ID D-132
+ hospital ID H-299  deal ID D-132,
+ hospital ID H-370  deal ID D-132.
 
 May 18, 2026 - Changed four hospital IDs of hospitals that share CMS IDs to make clear
 these hospitals are separate units and not duplicate rows. New hospital IDs generated:
- H-026-A St Luke's Medical Center
- H-026-B Tempe St Luke's Hospital
- H-554-A Metropolitan Methodist Hosp
- H-554-B Methodist Children's Hospital
+ H-026-A St Luke's Medical Center,
+ H-026-B Tempe St Luke's Hospital,
+ H-554-A Metropolitan Methodist Hosp, and
+ H-554-B Methodist Children's Hospital.
 
 May 18, 2026 - Resolved missing values for city, state, address, zip code, deal system names,
 deal date links, and deal dates
