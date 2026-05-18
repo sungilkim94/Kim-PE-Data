@@ -55,6 +55,12 @@ deal_exit_link - link, this is the link for the source of deal_exit_type for eac
 
 hca_flag - numeric, this is an indicator that = 1 when included in HCA PE deal, = 0 when not
 
+## Updated Figures, Tables, and Abstract
+
+We have provided an updated version of the figures, tables, and abstract from our paper: **Kim, S., et al. (2026).** *A Practitioner’s Guide to Using Data on Private Equity Hospital Acquisitions*. Health Affairs Scholar. [Paper Link](https://academic.oup.com/healthaffairsscholar/advance-article/doi/10.1093/haschl/qxag071/8626085)
+
+This updated version uses the most recent version of the PE deal dataset available here. All updates to this dataset are tracked below.
+
 ## Workflow
 
 Consistent with the paper, this repository documents the fuzzy match thresholds,
