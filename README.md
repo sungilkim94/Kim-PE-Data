@@ -102,5 +102,9 @@ deal date links, and deal dates
 
 May 18, 2026 - Changed exit type classification to match classification used in forthcoming work
 
+Jun 8, 2026 - Added three hospitals to the 2015 Apollo/RCHP acquisition:
+- Eliza Coffee Memorial Hospital (pn 010006)
+- Shoals Hospital (pn 010157)
+- Paris Regional Medical Center (pn 450196)
 
 
