@@ -106,5 +106,5 @@ Jun 8, 2026 - Added three hospitals to the 2015 Apollo/RCHP acquisition:
 - Eliza Coffee Memorial Hospital (pn 010006)
 - Shoals Hospital (pn 010157)
 - Paris Regional Medical Center (pn 450196)
-- (Thanks to Maggie Reid, PhD (Oregon Health & Science University) for pointing out these hospitals omission)
+- (Thanks to Maggie Reid, PhD (Oregon Health & Science University) for pointing out these omissions)
 
