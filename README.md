@@ -55,6 +55,8 @@ deal_exit_link - link, this is the link for the source of deal_exit_type for eac
 
 hca_flag - numeric, this is an indicator that = 1 when included in HCA PE deal, = 0 when not
 
+stac_status_dispute_flag - numeric, this is an indicator that = 1 when a hospital is short-term designated in POS but not short-term designated in other sources (AHA, Medicare procedural volume, HCRIS), = 0 when not
+
 ## Updated Figures, Tables, and Abstract
 
 We have provided an updated version of the figures, tables, and abstract from our paper: **Kim, S., et al. (2026).** *A Practitioner’s Guide to Using Data on Private Equity Hospital Acquisitions*. Health Affairs Scholar. [Paper Link](https://academic.oup.com/healthaffairsscholar/advance-article/doi/10.1093/haschl/qxag071/8626085)
@@ -102,9 +104,11 @@ deal date links, and deal dates
 
 May 18, 2026 - Changed exit type classification to match classification used in forthcoming work
 
-Jun 8, 2026 - Added three hospitals to the 2015 Apollo/RCHP acquisition:
+June 8, 2026 - Added three hospitals to the 2015 Apollo/RCHP acquisition:
 - Eliza Coffee Memorial Hospital (pn 010006)
 - Shoals Hospital (pn 010157)
 - Paris Regional Medical Center (pn 450196)
 - (Thanks to Maggie Reid (Oregon Health & Science University) for pointing out these omissions)
+
+June 16, 2026 - Added the variable "stac_status_dispute_flag" to easily identify hospitals which are short-term designated in POS but not short-term designated in other sources (AHA, Medicare procedural volume, HCRIS)
 
