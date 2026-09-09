@@ -112,3 +112,15 @@ June 8, 2026 - Added three hospitals to the 2015 Apollo/RCHP acquisition:
 
 June 16, 2026 - Added the variable "stac_status_dispute_flag" to easily identify hospitals which are short-term designated in POS but not short-term designated in other sources (AHA, Medicare procedural volume, HCRIS)
 
+September 9, 2026 - Changed deal timing for two hospitals:
+- SouthCrest Hospital (2011 deal, changed from 2012) (pn 370202)
+- East Orange General Hospital (2016 deal, changed from 2014) (pn 310083)
+
+September 9, 2026 - Added five hospital acquisitions:
+- Claremore Indian Hospital or Hillcrest Claremore (2011) (pn 370039)
+- Clinton Memorial Hospital (2010) (pn 360175)
+- St Joseph Regional Medical Center (2017) (pn 130003)
+- Tulsa Spine and Specialty Hospital (2014) (pn 370216)
+- Our Lady of Fatima Hospital (2014) (pn 410005)
+
+
