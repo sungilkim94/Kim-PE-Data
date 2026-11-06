@@ -125,4 +125,16 @@ September 9, 2026 - Added five hospital acquisitions:
 - Tulsa Spine and Specialty Hospital (2014) (pn 370216)
 - Our Lady of Fatima Hospital (2014) (pn 410005)
 
+November 6, 2026
+- Added indicator for hospital opened under PE control
+- Added indicator for deal LBO status ambigious
+- Deal type changes:
+- Changed from Growth to LBO: Gulf Coast Medical Center (2005) (pn 450214) and Paris Regional Medical Center (2004) (pn 450196)
+- Changed hospital ID: Merrimack Valley Hospital (2001) (pn 220041)
+- Drop due to verification of non-PE acquirer: Ingalls Hospital (2016) (pn 140191) and Lakeside Women's Hospital (2013) (pn 370199)
+- Drop due to verification of management only (non-ownership deal): Upson Regional Medical Center (2017) (pn 110002)
+- Drop due to duplicate: KershawHealth (2015) (pn 420048)
+- pn changed from 140117 to 140251: Our Lady of the Resurrection Medical Center (2014)
+- Added deal: Wadley Regional Medical Center (2009) (pn 450200)
+- Deal drop due to verification of Growth Equity deal not affecting hospital business: D-063
 
